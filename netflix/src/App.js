@@ -1,12 +1,14 @@
-
 import './App.css';
-
+import Row from './Row'
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
+     
        <h1>Netflix</h1>
-      </header>
+      <Row title='NETFLIX ORIGINALS'/>
+      <Row title='TRENDING NOW'/>
+      
     </div>
   );
 }
